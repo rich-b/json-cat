@@ -1,0 +1,10 @@
+{
+  "testEnvironment": "node",
+  "testRegex": "./tests/.*.test.ts$",
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "coverageReporters": ["html", "text"],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "json-cat",
+  "version": "0.0.1",
+  "description": "concatenated json parser",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=tests/jest.config.json",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "keywords": [
+    "json",
+    "concatenated",
+    "parser",
+    "streaming"
+  ],
+  "author": "rich beaver",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "@types/node": "^12.12.21",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  }
+}
