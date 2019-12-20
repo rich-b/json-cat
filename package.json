@@ -1,5 +1,5 @@
 {
-  "name": "json-cat",
+  "name": "json-cat-parser",
   "version": "0.0.1",
   "description": "concatenated json parser",
   "main": "src/index.js",

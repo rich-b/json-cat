@@ -1,4 +1,4 @@
-# json-cat
+# json-cat-parser
 
 concatenated json parser
 
