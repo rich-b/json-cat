@@ -7,7 +7,7 @@ Read chunks of json as they become available
 ## Usage
 
 ```
-import getParser from 'json-cat'-parser;
+import getParser from 'json-cat-parser';
 
 const outputStream = await getParser("http://www.someLocation.com", {
   itemArrayElementName: "results"

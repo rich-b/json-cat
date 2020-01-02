@@ -1,10 +1,15 @@
 {
   "testEnvironment": "node",
   "testRegex": "./tests/.*.test.ts$",
+  "rootDir": "../",
+  "coveragePathIgnorePatterns": ["node_modules", "tests", "dist", "coverage"],
+  "collectCoverageFrom": ["**/*.{js,ts}"],
   "collectCoverage": true,
   "coverageDirectory": "coverage",
   "coverageReporters": ["html", "text"],
+  "testResultsProcessor_NOT_WORKING": "ts-jest",
+  "moduleFileExtensions": ["ts", "tsx", "js"],
   "transform": {
-    "^.+\\.(ts|tsx)$": "ts-jest"
+    ".(ts|tsx)": "ts-jest"
   }
 }
